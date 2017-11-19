@@ -1,5 +1,14 @@
 # A dota 2 draft adviser using neural network
 
+# What this is
+
+Given a set of heros (picked on my team, enemy team) 
+
+What hero we pick if we want to win?
+
+What hero we pick if we want to lose?
+
+Let us train a neural network on past games to figure out the PogChamps and the NotLikeThis drafts
 
 ![alt text](https://raw.githubusercontent.com/evanthebouncy/dota_draft_advisor/master/embedded_pix/draw_io_diagram.png)
 
