@@ -1,9 +1,11 @@
-# A semantic embedding of Dota 2 Heros
+# A dota 2 draft adviser using neural network
 
-embed dota2 heros w2v style based on drafts
 
-![alt text](https://raw.githubusercontent.com/evanthebouncy/dota_hero_semantic_embedding/master/embedded_pix/embed1.png)
+![alt text](https://raw.githubusercontent.com/evanthebouncy/dota_draft_advisor/master/embedded_pix/draw_io_diagram.png)
 
+under construction
+
+<!---
 
 ## Word 2 Vec (what is this!?)
 
@@ -167,5 +169,7 @@ generalizing across similar hero roles.
 Using python 2.7 and tensorflow 1.0.1 so something might not be compatible. This thing trains rather quickly, like 5 minutes or even less on my machine with some Nvidia960 GPU laptop thing.
 
 Enjoy!!
+
+-->
 
 --evanthebouncy
