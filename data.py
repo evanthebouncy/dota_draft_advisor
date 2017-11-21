@@ -39,10 +39,19 @@ def rand_io():
 def rand_data():
   input_array =  [[0.0, 0.0] for _ in range(L)]
   output_array = [[0.0, 0.0] for _ in range(L)]
-  rand_hero, rand_team = rand_io()
-  input_array[rand_hero] = 1.0
-  for r_hero in rand_team:
-    output_array[r_hero] = [1.0, 0.0]
+  aaaa,bbbb = rand_io()
+  sub_t1, sub_t2 = aaaa
+  t1, wl = bbbb
+  for he1 in sub_t1:
+    input_array[he1] = [1.0, 0.0]
+  for he2 in sub_t2:
+    input_array[he2] = [0.0, 1.0]
+
+  for he11 in t1:
+    if wl:
+      output_array[he11] = [1.0, 0.0]
+    else:
+      output_array[he11] = [0.0, 1.0]
   return input_array, output_array
 
 def rand_datas(NN):
@@ -58,4 +67,5 @@ if __name__ == "__main__":
   print teams[0]
   print rand_draft()
   print rand_io()
+  print rand_data()
   
